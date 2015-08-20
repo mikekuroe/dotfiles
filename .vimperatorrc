@@ -1,0 +1,22 @@
+"3.9 (created: 2015/02/15 15:49:05)
+
+highlight Bell display:none
+highlight Hint font-family: Arial; font-size: 21px; font-weight: bold; text-shadow: -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black, 1px 1px 2px black; color: #33cccc;
+highlight HintActive color: black; background-color: #ff8700;
+highlight HintElem color: gray; background-color: #a1e4e6;
+
+set focuscontent
+set visualbell
+set hintchars=jnvurhgytbkdmcie
+
+map j 7<C-e>
+map k 7<C-y>
+map <BS> H
+map <S-j> <C-p>
+map <S-k> <C-n>
+map x <C-w>
+
+source! /home/mike/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+
