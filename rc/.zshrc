@@ -98,3 +98,7 @@ export PATH=$NDK_ROOT:$PATH
 export ANDROID_SDK_ROOT=~/Android/Sdk
 export PATH=$ANDROID_SDK_ROOT:$PATH
 export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
+
+# Add androidstudio 
+export PATH=/opt/android-studio/bin:$PATH
+alias androidstudio="studio.sh"

@@ -16,6 +16,10 @@ map <S-j> <C-p>
 map <S-k> <C-n>
 map x <C-w>
 
+noremap <C-j> :googleselect front<Enter>
+noremap <C-k> :googleselect back<Enter>
+
+
 source! /home/mike/.vimperatorrc.local
 
 " vim: set ft=vimperator:
