@@ -19,7 +19,7 @@ GIT_PS1_SHOWUPSTREAM=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 GIT_PS1_SHOWSTASHSTATE=1
 
-export PS1=' \[\e[92m\]\u\:\w\[\e[90m\]$(__git_ps1 " (%s)")\[\e[0m\]\$ '
+export PS1='\[\e[92m\]\u:\w\[\e[90m\]$(__git_ps1 " (%s)")\[\e[0m\]\$ '
 
 ## PYTHON
 export PYTHONSTARTUP=~/.pythonrc
