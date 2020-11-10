@@ -33,7 +33,9 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
-
+highlight SignColumn ctermbg=None
+highlight GitGutterAdd ctermbg=None
+highlight GitGutter ctermbg=None
 
 call neobundle#end()
 
@@ -64,11 +66,13 @@ nnoremap <C-w>j sj
 nnoremap <C-w>k sk
 nnoremap <C-w>l sl
 
-" カーソル保存
+" save cursor
 augroup vimrcEx
   au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
   \ exe "normal g`\"" | endif
 augroup END
+
+set cursorline
 
 " use mouse option
 set mouse=v
@@ -76,7 +80,7 @@ set mouse=v
 " syntax
 syntax enable
 
-" study config
+" tips config
 " :v/N/d 抽出
 " :g/N/d 除外
 " :se enc?
