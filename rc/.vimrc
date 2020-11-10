@@ -73,6 +73,9 @@ augroup END
 " use mouse option
 set mouse=v
 
+" syntax
+syntax enable
+
 " study config
 " :v/N/d 抽出
 " :g/N/d 除外
